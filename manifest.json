@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "URL Interceptor",
+  "description": "URL Interceptor",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "./html/intercept.html",
+    "default_icon": "./img/128x128.png"
+  },
+  "options_ui": {
+    "page": "./html/options.html",
+    "open_in_tab": false
+  },
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://*/*"],
+  "icons": {
+    "128": "./img/128x128.png"
+  }
+}
